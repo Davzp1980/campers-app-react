@@ -1,0 +1,57 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.mainHomeDiv {
+  position: relative;
+  width: 1440px;
+  height: 696px;
+  background-image: url('../../../public/Main_background.webp');
+}
+
+.homeContent {
+  position: absolute;
+  max-width: 600px;
+  left: 64px;
+  top: 260px;
+}
+
+.homeH1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67%;
+  color: #f7f7f7;
+  margin-bottom: 16px;
+}
+
+.homeP {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+.homeBtn {
+  border: none;
+
+  border-radius: 200px;
+
+  width: 173px;
+  height: 56px;
+  background-color: #e44848;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.homeBtn:hover {
+  background-color: #d84343;
+}

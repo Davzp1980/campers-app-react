@@ -1,0 +1,157 @@
+.TruckItemContainer {
+  display: flex;
+
+  border: 1px solid #dadde1;
+  border-radius: 20px;
+  padding: 24px;
+  width: 888px;
+  height: 368px;
+  padding: 24px;
+  gap: 24px;
+}
+
+.truckImg {
+  width: 292px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.TruckItemInfo {
+}
+
+.TruckItemDescription {
+  margin-bottom: 24px;
+}
+
+.TruckItemNamePrice {
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: #101828;
+}
+
+.TruckItemPriceFavorite {
+  display: flex;
+  gap: 12px;
+}
+
+.price {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: #101828;
+}
+
+.FavoriteBtn {
+  border: none;
+  background-color: transparent;
+}
+
+.FavoriteSVG {
+  width: 26px;
+  height: 24px;
+}
+
+.FavoriteBtn:hover .FavoriteSVG {
+  fill: #e44848;
+}
+
+.reviewsMapDiv {
+  display: flex;
+}
+
+.reviewsDiv {
+  margin-right: 16px;
+}
+
+.starSVG {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  stroke: #101828;
+}
+
+.span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101828;
+}
+
+.starMap {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.descriptionsP {
+  max-width: 520px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #475467;
+  margin-bottom: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.parametersList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 400px;
+  margin-bottom: 24px;
+}
+.parametersLi {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  padding: 12px 18px;
+  width: fit-content;
+  height: 48px;
+  background-color: #f2f4f7;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #101828;
+}
+
+.liIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.showMoreBtn {
+  border: none;
+  border-radius: 200px;
+
+  width: 166px;
+  height: 56px;
+  background-color: #e44848;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.showMoreBtn:hover {
+  background-color: #d84343;
+}

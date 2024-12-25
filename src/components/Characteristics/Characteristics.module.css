@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.parametersDiv {
+  border-radius: 10px;
+  padding: 44px 52px;
+  width: 631px;
+  background-color: #f7f7f7;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 100px;
+}
+
+.item {
+  display: flex;
+  gap: 8px;
+
+  border-radius: 100px;
+  background-color: #f2f4f7;
+  padding: 12px 18px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #101828;
+}
+
+.h2Details {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #101828;
+  margin-bottom: 24px;
+}
+
+.lineDiv {
+  width: 527px;
+  height: 1px;
+  background-color: #dadde1;
+  margin-bottom: 24px;
+}
+.descriptionlist {
+}
+.descriptionLi {
+  display: flex;
+  justify-content: space-between;
+}
+.descriptionLi:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.descriptionP {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #101828;
+
+  text-transform: capitalize;
+}

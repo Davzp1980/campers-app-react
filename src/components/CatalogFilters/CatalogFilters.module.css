@@ -1,0 +1,122 @@
+.filtersContainer {
+  width: 360px;
+}
+
+.location {
+  margin-bottom: 40px;
+}
+
+.locationP {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+  margin-bottom: 8px;
+}
+.locationInput {
+  border: none;
+  border-radius: 12px;
+  padding: 18px 218px 18px 20px;
+  width: 360px;
+  height: 56px;
+  background-color: #f7f7f7;
+}
+
+.equipmentContainer {
+  margin-bottom: 32px;
+}
+
+.filtersP {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+  margin-bottom: 32px;
+}
+
+.VehicleH2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #101828;
+  margin-bottom: 24px;
+}
+
+.line {
+  width: 360px;
+  height: 1px;
+  background-color: #dadde1;
+  margin-bottom: 24px;
+}
+
+.checkboxesContainer {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+.checkboxInput {
+  display: none;
+}
+
+.checkboxIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #dadde1;
+  border-radius: 12px;
+  padding: 16px 40px;
+  width: 112px;
+  height: 96px;
+}
+
+.checkboxInput:checked + .checkboxIcon {
+  border-color: #e44848;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+}
+.iconP {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  align-self: center;
+  color: #101828;
+}
+
+.typeContainer {
+  margin-bottom: 40px;
+}
+
+.searchBtn {
+  border: none;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background-color: #e44848;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.searchBtn:hover {
+  background-color: #d84343;
+}

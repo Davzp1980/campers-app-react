@@ -1,0 +1,95 @@
+.bookDiv {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  width: 641px;
+  padding: 44px 57px;
+}
+
+.descriptionDiv {
+  margin-bottom: 24px;
+}
+
+.descriptionP1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #101828;
+  margin-bottom: 8px;
+}
+
+.descriptionP2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+}
+
+.sendForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: none;
+  border-radius: 12px;
+  padding: 18px 337px 18px 18px;
+  height: 60px;
+  background-color: #f7f7f7;
+  margin-bottom: 14px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+}
+
+.calendar {
+  border-radius: 12px !important;
+  height: 60px;
+  background-color: #f7f7f7 !important;
+  margin-bottom: 14px !important;
+}
+
+.textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 18px 308px 76px 18px;
+  background-color: #f7f7f7;
+  height: 118px;
+  overflow: hidden;
+  margin-bottom: 24px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c717b;
+}
+
+.sendBtn {
+  margin: 0 auto;
+  border: none;
+  border-radius: 200px;
+  padding: 16px 60px;
+  width: 166px;
+  height: 56px;
+  background-color: #e44848;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.sendBtn:hover {
+  background-color: #d84343;
+}
+
+.errorMessage {
+  color: red;
+}
