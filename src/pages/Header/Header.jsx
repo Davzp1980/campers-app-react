@@ -11,7 +11,7 @@ function Header() {
         <div className={css.mainContainer}>
           <a href="/">
             <svg className={css.logoSVG}>
-              <use href="/public/sprite.svg#icon-Logo"></use>
+              <use href="sprite.svg#icon-Logo"></use>
             </svg>
           </a>
           <div className={css.linksContainer}>
