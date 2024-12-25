@@ -58,7 +58,7 @@ function BookingForm() {
             placeholder="Email*"
             {...register('email')}
           />
-          <p>{errors.email?.message}</p>
+          <p className={css.errorMessage}>{errors.email?.message}</p>
 
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DatePicker

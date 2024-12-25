@@ -20,7 +20,6 @@ function TrucksList() {
 
   const allTrucks = useSelector(selectAllTrucks);
   const totalTrucks = useSelector(selectTotalTrucks);
-  console.log(allTrucks);
 
   const transmission = useSelector(selectTransmission);
   const AC = useSelector(selectAC);
@@ -38,8 +37,6 @@ function TrucksList() {
   const filteredTrucks = allTrucks.filter(truck =>
     truck.location.toLowerCase().includes(filter)
   );
-
-  console.log(filteredTrucks);
 
   useEffect(() => {
     dispatch(

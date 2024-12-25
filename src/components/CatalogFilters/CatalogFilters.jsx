@@ -60,7 +60,7 @@ function CatalogFilters() {
             />
             <label htmlFor="AC" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-wind" />
+                <use href="/public/sprite.svg#icon-wind" />
               </svg>
               <p className={css.iconP}>AC</p>
             </label>
@@ -75,7 +75,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Automatic" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-diagram" />
+                <use href="/public/sprite.svg#icon-diagram" />
               </svg>
               <p className={css.iconP}>Automatic</p>
             </label>
@@ -90,7 +90,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Kitchen" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-cup-hot" />
+                <use href="/public/sprite.svg#icon-cup-hot" />
               </svg>
               <p className={css.iconP}>Kitchen</p>
             </label>
@@ -105,7 +105,7 @@ function CatalogFilters() {
             />
             <label htmlFor="TV" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-tv" />
+                <use href="/public/sprite.svg#icon-tv" />
               </svg>
               <p className={css.iconP}>TV</p>
             </label>
@@ -120,7 +120,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Bathroom" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-ph_shower" />
+                <use href="/public/sprite.svg#icon-ph_shower" />
               </svg>
               <p className={css.iconP}>Bathroom</p>
             </label>
@@ -142,7 +142,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Van" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-bi_grid-1x2" />
+                <use href="/public/sprite.svg#icon-bi_grid-1x2" />
               </svg>
               <p className={css.iconP}>Van</p>
             </label>
@@ -158,7 +158,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Fully" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-bi_grid" />
+                <use href="/public/sprite.svg#icon-bi_grid" />
               </svg>
               <p className={css.iconP}>Fully Integrated</p>
             </label>
@@ -174,7 +174,7 @@ function CatalogFilters() {
             />
             <label htmlFor="Alcove" className={css.checkboxIcon}>
               <svg className={css.icon}>
-                <use href="../../../public/sprite.svg#icon-diagram" />
+                <use href="/public/sprite.svg#icon-diagram" />
               </svg>
               <p className={css.iconP}>Alcove</p>
             </label>
