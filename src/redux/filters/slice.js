@@ -49,6 +49,11 @@ const filterSlice = createSlice({
     setFilter(state, action) {
       state.filter = action.payload;
     },
+    removeFavorite(state, action) {
+      state.favorite = state.favorite.filter(
+        truck => truck.id != action.payload
+      );
+    },
   },
 });
 
@@ -64,5 +69,6 @@ export const {
   setCurrentTruck,
   setReviewsLength,
   setFilter,
+  removeFavorite,
 } = filterSlice.actions;
 export const filterReducer = filterSlice.reducer;

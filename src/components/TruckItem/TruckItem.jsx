@@ -1,17 +1,31 @@
 import { useNavigate } from 'react-router';
 import css from './TruckItem.module.css';
-import { setFavorite } from '../../redux/filters/slice';
-import { useDispatch } from 'react-redux';
+import { removeFavorite, setFavorite } from '../../redux/filters/slice';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect, useState } from 'react';
+import clsx from 'clsx';
+import { selectFavorite } from '../../redux/filters/selectors';
 
 function TruckItem({ truck }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
+  const favorites = useSelector(selectFavorite);
+  console.log(favorites);
+
+  const [isFavorite, setIsFavorite] = useState(false);
 
   function handleShowMore() {
     navigate(`/catalog/${truck.id}`);
   }
 
   function handleAddToFavorite() {
+    setIsFavorite(prevState => !prevState);
+    if (isFavorite === true) {
+      dispatch(removeFavorite(truck.id));
+      return;
+    }
+    dispatch(removeFavorite(truck.id));
     dispatch(
       setFavorite({
         id: truck.id,
@@ -38,7 +52,14 @@ function TruckItem({ truck }) {
                 type="button"
                 onClick={handleAddToFavorite}
               >
-                <svg className={css.FavoriteSVG}>
+                <svg
+                  className={clsx(
+                    css.FavoriteSVG,
+                    isFavorite
+                      ? css.FavoriteSVG_Selected
+                      : css.FavoriteSVG_NotSelected
+                  )}
+                >
                   <use href="/sprite.svg#icon-heart" />
                 </svg>
               </button>

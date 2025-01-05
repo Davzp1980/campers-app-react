@@ -74,6 +74,7 @@
   padding: 16px 40px;
   width: 112px;
   height: 96px;
+  cursor: pointer;
 }
 
 .checkboxInput:checked + .checkboxIcon {
